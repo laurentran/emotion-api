@@ -40,7 +40,7 @@
             url: "https://api.projectoxford.ai/emotion/v1.0/recognize?" + $.param(params),
             beforeSend: function(xhrObj){
                 // Request headers
-                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","6188d51c797648ff921b24462bb07d8e");
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","YOUR-API-KEY");
             },
             processData: false,
             contentType: 'application/octet-stream',
